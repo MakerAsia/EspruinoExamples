@@ -1,0 +1,122 @@
+{
+  "ESPRUINOBOARD" : {
+    "json" : "ESPRUINOBOARD.json",
+    "thumb" : "http://www.espruino.com/img/ESPRUINOBOARD_thumb.jpg",
+    "image" : "http://www.espruino.com/img/ESPRUINOBOARD.jpg"
+  },
+  "PICO_R1_3" : {
+    "json" : "PICO_R1_3.json",
+    "thumb" : "http://www.espruino.com/img/PICO_R1_3_thumb.jpg",
+    "image" : "http://www.espruino.com/img/PICO_R1_3.jpg"
+  },
+  "ESPRUINOWIFI" : {
+    "json" : "ESPRUINOWIFI.json",
+    "thumb" : "http://www.espruino.com/img/ESPRUINOWIFI_thumb.jpg",
+    "image" : "http://www.espruino.com/img/ESPRUINOWIFI.jpg"
+  },
+  "PUCKJS" : {
+    "json" : "PUCKJS.json",
+    "thumb" : "http://www.espruino.com/img/PUCKJS_thumb.jpg",
+    "image" : "http://www.espruino.com/img/PUCKJS.jpg"
+  },
+  "PIXLJS" : {
+    "json" : "PIXLJS.json",
+    "thumb" : "http://www.espruino.com/img/PIXLJS_thumb.jpg",
+    "image" : "http://www.espruino.com/img/PIXLJS.jpg"
+  },
+  "MDBT42Q" : {
+    "json" : "MDBT42Q.json",
+    "thumb" : "http://www.espruino.com/img/MDBT42Q_thumb.jpg",
+    "image" : "http://www.espruino.com/img/MDBT42Q.jpg"
+  },
+  "RUUVITAG" : {
+    "json" : "RUUVITAG.json",
+    "thumb" : "http://www.espruino.com/img/RUUVITAG_thumb.jpg",
+    "image" : "http://www.espruino.com/img/RUUVITAG.jpg"
+  },
+  "WIO_LTE" : {
+    "json" : "WIO_LTE.json",
+    "thumb" : "http://www.espruino.com/img/WIO_LTE_thumb.jpg",
+    "image" : "http://www.espruino.com/img/WIO_LTE.jpg"
+  },
+  "NRF52832DK" : {
+    "json" : "NRF52832DK.json",
+    "thumb" : "http://www.espruino.com/img/NRF52832DK_thumb.jpg",
+    "image" : "http://www.espruino.com/img/NRF52832DK.jpg"
+  },
+  "THINGY52" : {
+    "json" : "THINGY52.json",
+    "thumb" : "http://www.espruino.com/img/THINGY52_thumb.jpg",
+    "image" : "http://www.espruino.com/img/THINGY52.jpg"
+  },
+  "STM32L496GDISCOVERY" : {
+    "json" : "STM32L496GDISCOVERY.json",
+    "thumb" : "http://www.espruino.com/img/STM32L496GDISCOVERY_thumb.jpg",
+    "image" : "http://www.espruino.com/img/STM32L496GDISCOVERY.jpg"
+  },
+  "RAK8211" : {
+    "json" : "RAK8211.json",
+    "thumb" : "http://www.espruino.com/img/RAK8211_thumb.jpg",
+    "image" : "http://www.espruino.com/img/RAK8211.jpg"
+  },
+  "RAK8212" : {
+    "json" : "RAK8212.json",
+    "thumb" : "http://www.espruino.com/img/RAK8212_thumb.jpg",
+    "image" : "http://www.espruino.com/img/RAK8212.jpg"
+  },
+  "NUCLEOF401RE" : {
+    "json" : "NUCLEOF401RE.json",
+    "thumb" : "http://www.espruino.com/img/NUCLEOF401RE_thumb.jpg",
+    "image" : "http://www.espruino.com/img/NUCLEOF401RE.jpg"
+  },
+  "STM32VLDISCOVERY" : {
+    "json" : "STM32VLDISCOVERY.json",
+    "thumb" : "http://www.espruino.com/img/STM32VLDISCOVERY_thumb.jpg",
+    "image" : "http://www.espruino.com/img/STM32VLDISCOVERY.jpg"
+  },
+  "STM32F4DISCOVERY" : {
+    "json" : "STM32F4DISCOVERY.json",
+    "thumb" : "http://www.espruino.com/img/STM32F4DISCOVERY_thumb.jpg",
+    "image" : "http://www.espruino.com/img/STM32F4DISCOVERY.jpg"
+  },
+  "OLIMEXINO_STM32" : {
+    "json" : "OLIMEXINO_STM32.json",
+    "thumb" : "http://www.espruino.com/img/OLIMEXINO_STM32_thumb.jpg",
+    "image" : "http://www.espruino.com/img/OLIMEXINO_STM32.jpg"
+  },
+  "HYSTM32_24" : {
+    "json" : "HYSTM32_24.json",
+    "thumb" : "http://www.espruino.com/img/HYSTM32_24_thumb.jpg",
+    "image" : "http://www.espruino.com/img/HYSTM32_24.jpg"
+  },
+  "HYSTM32_28" : {
+    "json" : "HYSTM32_28.json",
+    "thumb" : "http://www.espruino.com/img/HYSTM32_28_thumb.jpg",
+    "image" : "http://www.espruino.com/img/HYSTM32_28.jpg"
+  },
+  "HYSTM32_32" : {
+    "json" : "HYSTM32_32.json",
+    "thumb" : "http://www.espruino.com/img/HYSTM32_32_thumb.jpg",
+    "image" : "http://www.espruino.com/img/HYSTM32_32.jpg"
+  },
+  "ESP8266_BOARD" : {
+    "json" : "ESP8266_BOARD.json",
+    "thumb" : "http://www.espruino.com/img/ESP8266_BOARD_thumb.jpg",
+    "image" : "http://www.espruino.com/img/ESP8266_BOARD.jpg"
+  },
+  "ESP32" : {
+    "json" : "ESP32.json",
+    "thumb" : "http://www.espruino.com/img/ESP32_thumb.jpg",
+    "image" : "http://www.espruino.com/img/ESP32.jpg"
+  },
+  "KIDBRIGHT" : {
+    "json" : "KIDBRIGHT.json",
+    "thumb" : "http://www.espruino.com/img/ESP32_thumb.jpg",
+    "image" : "http://www.espruino.com/img/ESP32.jpg"
+  },  
+  "MICROBIT" : {
+    "json" : "MICROBIT.json",
+    "thumb" : "http://www.espruino.com/img/MICROBIT_thumb.jpg",
+    "image" : "http://www.espruino.com/img/MICROBIT.jpg"
+  }
+}
