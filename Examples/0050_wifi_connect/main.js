@@ -1,5 +1,5 @@
-var ssid = "Joh-choh";
-var password = 'mom.0818826116.###';
+var ssid = "SSID";
+var password = 'PASSWORD';
 
 // Test ESP32 WiFi event callbacks
 var wifi = require("Wifi");
@@ -10,12 +10,7 @@ wifi.on("connected", function(details) {
 	console.log("Event-> connected: " + JSON.stringify(details));
 });
 wifi.on("disconnected", function(details) {
-	console.log("Event-> disconnected: " + JSON.stringify(details));
-  wifi.connect(ssid, {password: password, mac:'78:24:af:c4:6f:f0'}, function() {
-    console.log( "connected." );
-    // console.log('Connected to Wifi.  IP address is:', wifi.getIP().ip);
-    // wifi.save(); // Next reboot will auto-connect
-  });  
+	console.log("Event-> disconnected: " + JSON.stringify(details));  
 });
 wifi.on("auth_change", function(details) {
 	console.log("Event-> auth_change: " + JSON.stringify(details));
@@ -35,13 +30,16 @@ wifi.on("sta_left", function(details) {
 
 wifi.stopAP();
 wifi.scan( function(ap) {
-  console.log(ap); 
+  console.log(ap);
+  console.log('Press BTN1 to connect WiFi');
+});
+
+setWatch(function() {
+  console.log('connecting...');
   wifi.connect(ssid, {password: password, mac:'78:24:af:c4:6f:f0'}, function() {
     console.log( "connected." );
     // console.log('Connected to Wifi.  IP address is:', wifi.getIP().ip);
     // wifi.save(); // Next reboot will auto-connect
   });
-});
-
-
+ }, BTN1, {"repeat":true,"edge":"rising","debounce":10});
 
